@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+th, td{
+    padding-right: 100px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 25px;
+    text-decoration: none;
+}

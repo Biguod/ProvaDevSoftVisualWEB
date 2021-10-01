@@ -1,0 +1,26 @@
+<div class="container">
+    <table>
+        <thead>
+            <th>Tipo do Automovel</th>
+            <th>Código do Chassi</th>
+            <th>Marca</th>
+            <th>Modelo do Automovel</th>
+            <th>Ano do Modelo</th>
+            <th>Ano de Fabricação</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let automobile of automobiles">
+                <td>{{automobile.type}}</td>
+                <td>{{automobile.chassi}}</td>
+                <td>{{automobile.brand}}</td>
+                <td>{{automobile.model}}</td>
+                <td>{{automobile.modelYear}}</td>
+                <td>{{automobile.factoryYear}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+</div>
+<div>    
+    <a routerLink="/automobile/create">Criar</a>
+</div>
